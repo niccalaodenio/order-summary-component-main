@@ -2,25 +2,29 @@
 *{
     margin: 0;
     padding:0 ;
-    box-sizing: border-box;
-    font-family: 'Red Hat Display', sans-serif;
 }
 body{
-   margin-top: 4%;
+    margin-top: 4%;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
     background: url(images/pattern-background-desktop.svg) 0 -120px no-repeat  ;
     background-size: 100vw;
     background-color: hsl(225, 100%, 94%);
     font-size: 16px;
-}
-.container{
+    z-index: -100;
     display: grid;
     place-items: center;
+}
+.container{
     
+    display: grid;
+    place-items: center;
+   
     width: 370px;
     height: auto;
     background-color: #fff;
     border-radius: 15px;
-    
+   
 }
 .container img{
     width: 370px;
