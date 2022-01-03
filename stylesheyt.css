@@ -6,7 +6,7 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 body{
-   
+   margin-top: 4%;
     background: url(images/pattern-background-desktop.svg) 0 -120px no-repeat  ;
     background-size: 100vw;
     background-color: hsl(225, 100%, 94%);
@@ -15,7 +15,7 @@ body{
 .container{
     display: grid;
     place-items: center;
-    margin: 3% auto;
+    
     width: 370px;
     height: auto;
     background-color: #fff;
