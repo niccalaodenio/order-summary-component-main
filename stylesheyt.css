@@ -152,7 +152,7 @@ h2{
     color:hsl(223, 47%, 23%);
 }
 
-@media only screen and (max-width: 375px){
+@media (max-width: 380px){
     body{
         width: 100vw;
         height: 100vh;
@@ -164,14 +164,14 @@ h2{
         display: grid;
         place-items: center;
         margin: 3% auto;
-        width: 300px;
+        width: 345px;
         height: auto;
         background-color: #fff;
         border-radius: 15px;
         
     }
     .container img{
-        width: 300px;
+        width: 345px;
         height: 150px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -181,11 +181,14 @@ h2{
     display: grid;
     place-items: center;
     padding: 0 15px 25px;
+    margin-left: 0;
 }
 .summary p{
-    line-height: 25px;
+    line-height: 22px;
     text-align: center;
     padding-top: 0;
+    width: 250px;
+    font-size: 16px;
 }
 
 h2{
@@ -200,7 +203,7 @@ h2{
     padding: 10px;
     background-color: hsl(225, 100%, 98%);
     margin-bottom: 24px;
-    width: 250px;
+    width: 260px;
 }
 .price{
     display: flex;
@@ -214,8 +217,8 @@ h2{
     margin-right: 10px;
 }
 .plan img{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
 }
 .icon {
     display: flex;
@@ -225,7 +228,7 @@ h2{
 
 .btn{
  
-    width: 250px;
+    width: 280px;
     /* height: 30px; */
     padding: 12px;
     border-radius: 10px;
@@ -242,7 +245,7 @@ h2{
     font-size: 0.9rem;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
-    padding: 19px 25px 25px;
+    padding: 19px 25px 30px;
     text-decoration: none;
 }
 .plan a{
